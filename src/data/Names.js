@@ -1,3 +1,6 @@
+import firstname from "./Names/first-names.json";
+import lastname from "./Names/last-names.json";
+
 export const Names = {}
 // TODO: Currently best suited in JavaScript, too much boilerplate involved in expressing in TypeScript. Should re-evaluate in future when more experienced.
 // NOTE: Default is also used for human names
@@ -5,20 +8,7 @@ export const Names = {}
 // Default
 Names.default = { format: "{0} {1}", male: {}, female: {}, other: {} }
 Names.default.other.first = ["Sam", "Riley"]
-Names.default.male.first = [
-    "Adrian",
-    "Alex",
-    "Alfred",
-    "Bob",
-    "Dale",
-    "George",
-    "John",
-    "Jordan",
-    "Jovan",
-    "Tom",
-    "Reginald",
-    "Ryan"
-].concat(Names.default.other.first)
+Names.default.male.first = firstname.concat(Names.default.other.first)
 Names.default.female.first = [
     "Alice",
     "Cara",
