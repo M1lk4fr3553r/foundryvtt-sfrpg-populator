@@ -23,7 +23,7 @@
     "styles": [],
     "packs": [],
     "url": "https://github.com/danimrath/foundryvtt-sfrpg-populator",
-    "manifest": "https://github.com/krrrrrrk/foundryvtt-sfrpg-populator/releases/latest/download/module.json",
+    "manifest": "https://raw.githubusercontent.com/M1lk4fr3553r/foundryvtt-sfrpg-populator/main/module.json",
     "download": "https://github.com/danimrath/foundryvtt-sfrpg-populator/releases/download/V0.2.2/sfrpg-populator-v0.2.2.zip",
     "minimumCoreVersion": "10.2901",
     "compatibleCoreVersion": "10.2901",
